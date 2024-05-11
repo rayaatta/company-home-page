@@ -1,6 +1,23 @@
+/* importing google fonts like this is better b/c it loads the site faster */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poetsen+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 body {
   background-color: lightgoldenrodyellow;
   text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+.logo img {
+  box-shadow: 2px 2px 4px #333;
+  border-radius: 5px;
+}
+.navigation a {
+  margin-right: 5%;
+  /* percent means 5% of the width of the parent element or viewport */
+  text-decoration: none;
+  font-weight: 700;
+  color: #a80000;
+  /* this is my fav color in coding */
+  font-weight: 'Josefin Sans', sans-serif;
 }
 .flavors {
   display: flex; 
@@ -19,5 +36,25 @@ body {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+
+figure img {
+  /* this just makes it look cooler */
+  transition: all 0.2s ease-in-out;
+  box-shadow: 2px 3px 4px #333;
+  border-radius: 5px;
+}
+
+figure img:hover {
+  cursor: pointer;
+  box-shadow: 2px 3px 8px #000;
+}
+
+@media screen and (max-width: 768px) {
+  .flavors {
+    /* This makes the flavors appear on top of each other */
+    flex-direction: column;
+  }
 }
 
