@@ -1,0 +1,23 @@
+body {
+  background-color: lightgoldenrodyellow;
+  text-align: center;
+}
+.flavors {
+  display: flex; 
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+} 
+
+.flavors figcaption {
+  text-align: center;
+  font-weight: bold;
+  color: darkblue;
+} 
+
+.photos {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
