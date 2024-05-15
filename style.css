@@ -53,6 +53,7 @@ figure img:hover {
 
 @media screen and (min-width: 365px) {
   .flavors {
+    background:#682518;
     /* This makes the flavors appear side by side of each other */
     display:grid;
     grid-template-columns: repeat(5, 1fr);
