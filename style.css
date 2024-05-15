@@ -55,7 +55,7 @@ figure img:hover {
   .flavors {
     /* This makes the flavors appear side by side of each other */
     display:grid;
-    grid-template-columns: 5;
+    grid-template-columns: repeat(5, 1fr);
   }
 }
 
