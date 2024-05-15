@@ -21,9 +21,9 @@ body {
 }
 .flavors {
   display: flex; 
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-between;
+  align-items: center;
 } 
 
 .flavors figcaption {
@@ -51,10 +51,11 @@ figure img:hover {
   box-shadow: 2px 3px 8px #000;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .flavors {
     /* This makes the flavors appear on top of each other */
-    flex-direction: column;
+    display:grid;
+    grid-template-columns: 5;
   }
 }
 
