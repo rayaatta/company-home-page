@@ -24,6 +24,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: center;
+  background:#682518;
 } 
 
 .flavors figcaption {
