@@ -51,9 +51,9 @@ figure img:hover {
   box-shadow: 2px 3px 8px #000;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 365px) {
   .flavors {
-    /* This makes the flavors appear on top of each other */
+    /* This makes the flavors appear side by side of each other */
     display:grid;
     grid-template-columns: 5;
   }
